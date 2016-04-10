@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F2BE50F48BA5BD349F2D1CE2F282911035FBF37B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A3BFDE44C64215BFC4BF49B811F4819A04853894" : 0,
+    "F2BE50F48BA5BD349F2D1CE2F282911035FBF37B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E45B5461-16DF-417B-BA9E-DB94D39BEC57",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A3BFDE44C64215BFC4BF49B811F4819A04853894" : "",
+    "F2BE50F48BA5BD349F2D1CE2F282911035FBF37B" : "Swiftris\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Swiftris",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Swiftris\/Swiftris.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:BonnieAllen\/ios-static-analysis-exercises-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3BFDE44C64215BFC4BF49B811F4819A04853894"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:BonnieAllen\/Swiftris.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F2BE50F48BA5BD349F2D1CE2F282911035FBF37B"
+    }
+  ]
+}
