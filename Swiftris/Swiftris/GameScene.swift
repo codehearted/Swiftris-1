@@ -52,7 +52,7 @@ class GameScene: SKScene {
         gameLayer.addChild(shapeLayer)
         
         // #8
-//        runAction(SKAction.repeatActionForever(SKAction.playSoundFileNamed("theme.mp3", waitForCompletion: true)))
+        runAction(SKAction.repeatActionForever(SKAction.playSoundFileNamed("theme.mp3", waitForCompletion: true)))
     }
     
     // #9

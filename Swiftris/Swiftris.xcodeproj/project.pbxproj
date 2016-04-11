@@ -15,9 +15,14 @@
 		9F01EF411CB86FA8000E334A /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01EF401CB86FA8000E334A /* SShape.swift */; };
 		9F01EF431CB86FBF000E334A /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01EF421CB86FBF000E334A /* ZShape.swift */; };
 		9F01EF451CB89967000E334A /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01EF441CB89967000E334A /* Swiftris.swift */; };
-		9FEFC32C1CB9FB10005F9F77 /* Blocs in Resources */ = {isa = PBXBuildFile; fileRef = 9FEFC32B1CB9FB10005F9F77 /* Blocs */; };
 		9FF5FA221CB815D50012ED6C /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF5FA211CB815D50012ED6C /* Block.swift */; };
 		9FF5FA241CB820C50012ED6C /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF5FA231CB820C50012ED6C /* Shape.swift */; };
+		9FF9CD2F1CBB332500217DC9 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9CD2E1CBB332500217DC9 /* Sounds */; };
+		9FF9CD351CBB379E00217DC9 /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9CD301CBB379E00217DC9 /* bomb.mp3 */; };
+		9FF9CD361CBB379E00217DC9 /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9CD311CBB379E00217DC9 /* drop.mp3 */; };
+		9FF9CD371CBB379E00217DC9 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9CD321CBB379E00217DC9 /* gameover.mp3 */; };
+		9FF9CD381CBB379E00217DC9 /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9CD331CBB379E00217DC9 /* levelup.mp3 */; };
+		9FF9CD391CBB379E00217DC9 /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9CD341CBB379E00217DC9 /* theme.mp3 */; };
 		9FFF3CC11CB6F92700A2C873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFF3CC01CB6F92700A2C873 /* AppDelegate.swift */; };
 		9FFF3CC51CB6F92700A2C873 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFF3CC41CB6F92700A2C873 /* GameScene.swift */; };
 		9FFF3CC71CB6F92700A2C873 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFF3CC61CB6F92700A2C873 /* GameViewController.swift */; };
@@ -47,9 +52,14 @@
 		9F01EF401CB86FA8000E334A /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
 		9F01EF421CB86FBF000E334A /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
 		9F01EF441CB89967000E334A /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
-		9FEFC32B1CB9FB10005F9F77 /* Blocs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Blocs; sourceTree = "<group>"; };
 		9FF5FA211CB815D50012ED6C /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		9FF5FA231CB820C50012ED6C /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		9FF9CD2E1CBB332500217DC9 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		9FF9CD301CBB379E00217DC9 /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bomb.mp3; path = Swiftris/Sounds/bomb.mp3; sourceTree = "<group>"; };
+		9FF9CD311CBB379E00217DC9 /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = drop.mp3; path = Swiftris/Sounds/drop.mp3; sourceTree = "<group>"; };
+		9FF9CD321CBB379E00217DC9 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gameover.mp3; path = Swiftris/Sounds/gameover.mp3; sourceTree = "<group>"; };
+		9FF9CD331CBB379E00217DC9 /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = levelup.mp3; path = Swiftris/Sounds/levelup.mp3; sourceTree = "<group>"; };
+		9FF9CD341CBB379E00217DC9 /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = theme.mp3; path = Swiftris/Sounds/theme.mp3; sourceTree = "<group>"; };
 		9FFF3CBD1CB6F92600A2C873 /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FFF3CC01CB6F92700A2C873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FFF3CC41CB6F92700A2C873 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -82,9 +92,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9FF9CD2D1CBB330400217DC9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				9FF9CD2E1CBB332500217DC9 /* Sounds */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		9FFF3CB41CB6F92600A2C873 = {
 			isa = PBXGroup;
 			children = (
+				9FF9CD301CBB379E00217DC9 /* bomb.mp3 */,
+				9FF9CD311CBB379E00217DC9 /* drop.mp3 */,
+				9FF9CD321CBB379E00217DC9 /* gameover.mp3 */,
+				9FF9CD331CBB379E00217DC9 /* levelup.mp3 */,
+				9FF9CD341CBB379E00217DC9 /* theme.mp3 */,
 				9FFF3CBF1CB6F92600A2C873 /* Swiftris */,
 				9FFF3CD81CB6F92700A2C873 /* SwiftrisTests */,
 				9FFF3CBE1CB6F92600A2C873 /* Products */,
@@ -118,8 +141,8 @@
 				9FFF3CC61CB6F92700A2C873 /* GameViewController.swift */,
 				9FFF3CE61CB77EB800A2C873 /* Array2D.swift */,
 				9FFF3CC81CB6F92700A2C873 /* Main.storyboard */,
-				9FEFC32B1CB9FB10005F9F77 /* Blocs */,
 				9FFF3CCB1CB6F92700A2C873 /* Assets.xcassets */,
+				9FF9CD2D1CBB330400217DC9 /* Sounds */,
 				9FFF3CCD1CB6F92700A2C873 /* LaunchScreen.storyboard */,
 				9FFF3CD01CB6F92700A2C873 /* Info.plist */,
 			);
@@ -216,7 +239,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FEFC32C1CB9FB10005F9F77 /* Blocs in Resources */,
+				9FF9CD351CBB379E00217DC9 /* bomb.mp3 in Resources */,
+				9FF9CD361CBB379E00217DC9 /* drop.mp3 in Resources */,
+				9FF9CD371CBB379E00217DC9 /* gameover.mp3 in Resources */,
+				9FF9CD381CBB379E00217DC9 /* levelup.mp3 in Resources */,
+				9FF9CD391CBB379E00217DC9 /* theme.mp3 in Resources */,
+				9FF9CD2F1CBB332500217DC9 /* Sounds in Resources */,
 				9FFF3CCF1CB6F92700A2C873 /* LaunchScreen.storyboard in Resources */,
 				9FFF3CCC1CB6F92700A2C873 /* Assets.xcassets in Resources */,
 				9FFF3CCA1CB6F92700A2C873 /* Main.storyboard in Resources */,
