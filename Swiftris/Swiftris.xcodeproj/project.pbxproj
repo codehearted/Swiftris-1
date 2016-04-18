@@ -15,6 +15,7 @@
 		9F01EF411CB86FA8000E334A /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01EF401CB86FA8000E334A /* SShape.swift */; };
 		9F01EF431CB86FBF000E334A /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01EF421CB86FBF000E334A /* ZShape.swift */; };
 		9F01EF451CB89967000E334A /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F01EF441CB89967000E334A /* Swiftris.swift */; };
+		9FF35B711CC52B3500663CE1 /* TimerDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF35B701CC52B3500663CE1 /* TimerDisplay.swift */; };
 		9FF5FA221CB815D50012ED6C /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF5FA211CB815D50012ED6C /* Block.swift */; };
 		9FF5FA241CB820C50012ED6C /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF5FA231CB820C50012ED6C /* Shape.swift */; };
 		9FF9CD2F1CBB332500217DC9 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9CD2E1CBB332500217DC9 /* Sounds */; };
@@ -52,6 +53,7 @@
 		9F01EF401CB86FA8000E334A /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
 		9F01EF421CB86FBF000E334A /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
 		9F01EF441CB89967000E334A /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
+		9FF35B701CC52B3500663CE1 /* TimerDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerDisplay.swift; sourceTree = "<group>"; };
 		9FF5FA211CB815D50012ED6C /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		9FF5FA231CB820C50012ED6C /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		9FF9CD2E1CBB332500217DC9 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				9F01EF421CB86FBF000E334A /* ZShape.swift */,
 				9FFF3CC61CB6F92700A2C873 /* GameViewController.swift */,
 				9FFF3CE61CB77EB800A2C873 /* Array2D.swift */,
+				9FF35B701CC52B3500663CE1 /* TimerDisplay.swift */,
 				9FFF3CC81CB6F92700A2C873 /* Main.storyboard */,
 				9FFF3CCB1CB6F92700A2C873 /* Assets.xcassets */,
 				9FF9CD2D1CBB330400217DC9 /* Sounds */,
@@ -208,6 +211,7 @@
 				TargetAttributes = {
 					9FFF3CBC1CB6F92600A2C873 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = N88DHUAS92;
 					};
 					9FFF3CD41CB6F92700A2C873 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -269,6 +273,7 @@
 				9F01EF371CB86F0C000E334A /* SquareShape.swift in Sources */,
 				9FFF3CC51CB6F92700A2C873 /* GameScene.swift in Sources */,
 				9F01EF3F1CB86F8D000E334A /* JShape.swift in Sources */,
+				9FF35B711CC52B3500663CE1 /* TimerDisplay.swift in Sources */,
 				9F01EF451CB89967000E334A /* Swiftris.swift in Sources */,
 				9FF5FA241CB820C50012ED6C /* Shape.swift in Sources */,
 				9FFF3CE71CB77EB800A2C873 /* Array2D.swift in Sources */,
@@ -405,10 +410,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Swiftris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bloc.io.Swiftris;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Bloc.Swiftris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -416,10 +425,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Swiftris/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bloc.io.Swiftris;
+				PRODUCT_BUNDLE_IDENTIFIER = io.Bloc.Swiftris;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
