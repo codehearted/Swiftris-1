@@ -42,7 +42,7 @@ class TimerDisplay {
                 }
             }
         } else {
-            return "ENDLESS MODE"
+            return "Classic Mode"
         }
     }
     
